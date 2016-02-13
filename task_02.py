@@ -4,3 +4,11 @@
 
 
 import inquisition
+
+A = inquisition.SPANISH
+
+B = A.index('Spanish')
+
+C = len('Spanish')
+
+FLEMISH = A[:B] + 'Flemish' + A[B+C:]
