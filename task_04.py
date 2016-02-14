@@ -7,5 +7,5 @@ FNAME = 'Pat'
 NTYPE = '*amazing*'
 RNUM = 42
 RNUM = '0000' + '42'
-NEWS = NEWS.replace('{friend}', '{2}')
+NEWS = NEWS.replace('{friend}', FNAME)
 EMAIL = NEWS.format(NTYPE, RNUM, FNAME)
