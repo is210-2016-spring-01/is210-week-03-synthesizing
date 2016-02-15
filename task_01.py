@@ -4,3 +4,7 @@
 
 
 import inquisition
+
+inquistion.SPANISH = inquistion.SPANISH.replace('surprise','haddock')
+
+print inquistion.SPANISH
