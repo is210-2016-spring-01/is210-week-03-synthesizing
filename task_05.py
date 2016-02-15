@@ -57,14 +57,14 @@ def is_empty(my_sequence):
         >>> is_empty(42)
         Traceback (most recent call last):
           File "<stdin>", line 1, in <module>
-        TypeError: object has no len()
+        TypeError: object has len()
     """
     count = get_member_count(my_sequence)
 
     if count != False:
         return count == 0
     else:
-        raise TypeError('Object has no len()')
+        raise TypeError('Object has len()')
 
 
 TEST = ''
