@@ -7,5 +7,3 @@ FNAME = 'Pat'
 NTYPE = '*amazing*'
 RNUM = 42
 EMAIL = NEWS.format(NTYPE, format(RNUM, "06d"), friend = FNAME)
-
-print EMAIL
