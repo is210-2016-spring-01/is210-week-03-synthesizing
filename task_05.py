@@ -67,7 +67,7 @@ def is_empty(my_sequence):
     if count != 0:
         return False
     else:
-        TypeError ('Object has no len()')
+        raise TypeError('Object has no len()')
 
 
 TEST = ''
