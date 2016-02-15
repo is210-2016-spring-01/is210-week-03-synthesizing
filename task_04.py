@@ -7,4 +7,6 @@ FNAME = 'Pat'
 NTYPE = '*amazing*'
 RNUM = 42
 
-print NEWS.format(NTYPE, RNUM, friend=FNAME)
+EMAIL = NEWS.format(NTYPE, RNUM, friend=FNAME)
+
+print EMAIL
