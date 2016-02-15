@@ -4,3 +4,5 @@
 
 
 import inquisition
+
+FISHY = str.replace(inquisition.SPANISH, 'surprise', 'haddock')
