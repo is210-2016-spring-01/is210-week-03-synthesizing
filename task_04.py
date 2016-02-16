@@ -8,8 +8,6 @@ NTYPE = '*amazing*'
 RNUM = 42
 
 
-EMAIL = NEWS.format(FNAME, NTYPE, RNUM)
+EMAIL = NEWS.format(NTYPE, RNUM, friend=FNAME)
 
 print EMAIL
-
-
