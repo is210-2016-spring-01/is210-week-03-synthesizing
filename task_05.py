@@ -28,7 +28,6 @@ def get_member_count(my_sequence):
     except TypeError:
         length = False
 
-
     return length
 
 
