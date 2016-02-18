@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Provides variables for formatting."""
 
-NEWS = "Hi {}! I have {} news! I won the raffle with number {:0>6}!"
+NEWS = "Hi {0}! I have {1} news! I won the raffle with number {2:0>6}!"
 
 FNAME = 'Pat'
 NTYPE = '*amazing*'
