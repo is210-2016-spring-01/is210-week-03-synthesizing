@@ -59,9 +59,9 @@ def is_empty(my_sequence):
           File "<stdin>", line 1, in <module>
         TypeError: object has no len()
     """
-    count = get_member_count(my_sequence)
 
-    if count != False:
+    count = get_member_count(my_sequence)
+    if count is not False:
         return count == 0
     else:
         raise TypeError('Object has no len()')
