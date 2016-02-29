@@ -5,11 +5,9 @@
 
 import inquisition
 
-print inquistion.SPANISH.len('Spanish')
+NEWFLEMISH = 'Flemish'
 
-print inquisiton[0:6] + inquistion.index('Flemish')
+NEWSPANISH = inquisition.SPANISH.index('Spanish')
 
-
-FLEMISH = "Nobody expects the Flemish Inquisition! Our chief weapon is surprise......."
-
-print FLEMISH
+FLEMISH = inquisition.SPANISH[:NEWSPANISH] + NEWFLEMISH\
+          + inquistition.SPANISH[NEWSPANISH+len('Spanish'):]
