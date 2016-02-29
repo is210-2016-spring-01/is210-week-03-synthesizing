@@ -5,10 +5,4 @@
 
 import inquisition
 
-inquistion.SPANISH = inquistion.SPANISH.replace('surprise','haddock')
-
-print inquistion.SPANISH
-
-FISHY = "Nobody expects the Spanish Inquisition! Our chief weapon is haddock......"
-
-print FISHY 
+FISHY = inquistion.SPANISH.replace('surprise','haddock')
