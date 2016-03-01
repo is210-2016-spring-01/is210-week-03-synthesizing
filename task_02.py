@@ -10,4 +10,4 @@ NEWFLEMISH = 'Flemish'
 NEWSPANISH = inquisition.SPANISH.index('Spanish')
 
 FLEMISH = inquisition.SPANISH[:NEWSPANISH] + NEWFLEMISH\
-          + inquistition.SPANISH[NEWSPANISH+len('Spanish'):]
+          + inquisition.SPANISH[NEWSPANISH+len('Spanish'):]
