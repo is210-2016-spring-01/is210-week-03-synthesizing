@@ -4,3 +4,10 @@
 
 
 import inquisition
+
+NEWFLEMISH = 'Flemish'
+
+NEWSPANISH = inquisition.SPANISH.index('Spanish')
+
+FLEMISH = inquisition.SPANISH[:NEWSPANISH] + NEWFLEMISH\
+          + inquisition.SPANISH[NEWSPANISH+len('Spanish'):]
