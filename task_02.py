@@ -4,3 +4,6 @@
 
 
 import inquisition
+
+SPAREPLACE = len("Spanish")
+FLEMISH = inquisition.SPANISH[:19] + "Flemish" + inquisition.SPANISH[26:]
