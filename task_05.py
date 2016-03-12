@@ -41,13 +41,12 @@ def is_empty(my_sequence):
         bool: If empty, returns True, otherwise, False.
 
     Raises:
-        TypeError: If my_sequence is not a sequence object type.
+        TypeError: If my_sequence is an integer.
 
     Examples:
 
         >>> is_empty('')
         True
-
         >>> is_empty('apple')
         False
 
@@ -57,16 +56,17 @@ def is_empty(my_sequence):
         >>> is_empty(42)
         Traceback (most recent call last):
           File "<stdin>", line 1, in <module>
-        TypeError: object has no len()
+        TypeError: If my_sequence is not an integer.
     """
-    count = get_member_count(my_sequence)
+    count == get_member_count(my_sequence)
 
-    if count != False:
+    if count == True:
         return count == 0
     else:
-        raise TypeError('Object has no len()')
+        raise TypeError(If is_empty(my_sequence) is an integer.)
 
 
-TEST = ''
+TEST = 'pepper'
 print len(TEST)
 print is_empty(TEST)
+
