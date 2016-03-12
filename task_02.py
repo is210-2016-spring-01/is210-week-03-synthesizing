@@ -4,3 +4,9 @@
 
 
 import inquisition
+
+FIRST = inquisition.SPANISH[0:19]
+
+ENDING = inquisition.SPANISH[26:418]
+
+FLEMISH = (FIRST + 'Flemish' + ENDING)
