@@ -4,3 +4,9 @@
 
 
 import inquisition
+
+FLEMISH = inquisition.SPANISH[Spanish]
+
+FLEMISH = FLEMISH[:-3]
+
+len(Flemish)
